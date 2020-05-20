@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+h1{
+	font-family: times new roman;
+	margin-bottom: 50px;
+	text-align:center;
+	font-size: 175%
+}
+
+
+p1{
+	font-family: times new roman;
+	font-size: 125%;
+	margin-top: 0px;
+	float:right;
+	width: 90px;
+    height: 25px;
+    font-weight: bold;
+    text-align:center;
+    border: 1px solid black;
+    background-color: pink;
+}
+
+p2{
+	font-family: times new roman;
+	float: left;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  section1, section2, section3{
+  width: 30%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: #777777;
+  float:left;
+  margin-right: 3.33%;
+  padding-bottom: 2%;
+ }
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  section1, section2{
+  width: 47.5%;
+  height: 47.5%;
+  border: 1px solid black;
+  background-color: #777777;
+  float:left;
+  padding-bottom: 2%;
+  margin-bottom: 5%;
+ }
+ 
+ section1{
+	 margin-right: 5%;
+ }
+ section3{
+  width: 100%;
+  height: 45%;
+  border: 1px solid black;
+  background-color: #777777;
+  float:left;
+  padding-bottom: 2%;
+ }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  section1, section2, section3{
+  width: 100%;
+  height: 30%;
+  border: 1px solid black;
+  background-color: #777777;
+  float:left;
+  margin-bottom: 3%;
+  padding-bottom: 2%;
+ }
+}
